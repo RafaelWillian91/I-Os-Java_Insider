@@ -1,0 +1,3 @@
+A computação quântica é uma área da ciência da computação que estuda o uso de sistemas quânticos para
+realizar operações computacionais. Ela utiliza as propriedades da mecânica quântica, como superposição e
+emaranhamento, para processar informações de forma muito mais rápida do que os computadores clássicos.
