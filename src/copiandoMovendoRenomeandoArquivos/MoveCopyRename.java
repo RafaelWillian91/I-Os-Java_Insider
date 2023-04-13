@@ -20,7 +20,8 @@ public class MoveCopyRename {
         //passado para sobrescrever o arquivo existente se no ato da copia ele existir
         Files.copy(from, p1, StandardCopyOption.REPLACE_EXISTING);
 
-        //Para mover é o mesmo, só que ele sobrescreve as informações contidas no arquivo, não o arquivo inteiro
+        //Para mover é o mesmo, só que ele pega as informacoes do arquivo e passa para o novo local com o nome que voce
+        //precisa dar
         Files.move(from, p1, StandardCopyOption.REPLACE_EXISTING);
 
 
