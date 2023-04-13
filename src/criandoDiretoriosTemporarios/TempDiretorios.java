@@ -21,7 +21,9 @@ public class TempDiretorios {
 
         //Prefixo é o nome do arquivo em temp, depois uma serie de numeros e no fim o suffix
         Path p3 = Files.createTempFile("fff", "arq.txt");
-        Path p4 = Files.createTempFile(Path.of(""), "myArquiv", ".exe");//null que dizer que o final vai ser tmp
+
+        //Path.of("") nesse método informo onde sera criado o arquivo temporario
+        Path p4 = Files.createTempFile(Path.of("C:","Users", "rafaw", "OneDrive"), "myArquiv", null);//null que dizer que o final vai ser tmp
 
         System.out.println(p3.toAbsolutePath());
 
