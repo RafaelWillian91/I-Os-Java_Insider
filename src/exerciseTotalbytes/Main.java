@@ -21,11 +21,15 @@ public class Main {
 
                if (!Files.isDirectory(path)){
                    amount += Files.size(path);
+                   System.out.println(path);
                }else {
                    searchCalc(path.toString());
                }
            }
-       }         System.out.println(amount);
+       }
+       System.out.println(amount + "\n -----------------------------------------------");
+
+
      }
 
 }
