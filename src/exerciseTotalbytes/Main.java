@@ -9,27 +9,28 @@ public class Main {
 
     public static void main(String[] args) throws IOException{
 
-        searchCalc("C:\\Users\\rafaw\\OneDrive\\Documentos");
-
+        long size = searchCalc("C:\\Users\\rafaw\\OneDrive\\Documentos");
+        System.out.println(size);
     }
 
-     private static void searchCalc (String of) throws IOException {
+     private static long searchCalc (String of) throws IOException {
         long amount = 0;
-         System.out.println(of);
+
        try (var searchDirectory = Files.newDirectoryStream(Path.of(of))){
            for (Path path : searchDirectory) {
 
                if (!Files.isDirectory(path)){
-                   amount += Files.size(path);
                    System.out.println(path);
+                   amount += Files.size(path);
+
                }else {
-                   searchCalc(path.toString());
+                   amount += searchCalc(path.toString());
                }
            }
-       }
-       System.out.println(amount + "\n -----------------------------------------------");
 
+         }
 
+         return amount;
      }
 
 }
