@@ -1,4 +1,4 @@
-package resolvendoCaminhosPAth;
+package Path_Files_File.resolvendoCaminhosPAth;
 
 import java.nio.file.Path;
 
