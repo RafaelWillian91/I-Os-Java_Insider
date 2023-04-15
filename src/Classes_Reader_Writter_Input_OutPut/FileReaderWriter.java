@@ -1,11 +1,8 @@
-package Classes_Reader_Writter_Input_OutPut.FileWriterDadosemFormatoTexto;
+package Classes_Reader_Writter_Input_OutPut;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 public class FileReaderWriter {
 
