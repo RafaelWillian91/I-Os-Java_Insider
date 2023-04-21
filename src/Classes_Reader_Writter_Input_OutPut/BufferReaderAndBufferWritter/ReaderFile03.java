@@ -1,4 +1,4 @@
-package BufferReaderAndBufferWritter;
+package Classes_Reader_Writter_Input_OutPut.BufferReaderAndBufferWritter;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
