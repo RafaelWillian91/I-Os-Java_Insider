@@ -1,0 +1,2 @@
+Ola mundo Java. Padroes seguidos. Esperados por Métodos de classes. Arquivos Importantes, que
+tem a capacidade. De separar os elementos por determinados padroes.
